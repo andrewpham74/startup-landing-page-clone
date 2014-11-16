@@ -25,6 +25,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.introduction {
+    background-image: url(images/first-background.jpg) no-repeat center center fixed;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -71,10 +75,6 @@ table {
 	margin-left: 25px;
 }
 
-
-}
-
-}
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
