@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -59,4 +60,22 @@ table {
 
 .top-navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	margin-top:25px;
+
+. top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+
+}
+
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
 }
